@@ -1,0 +1,37 @@
+@media (max-width: 767.98px) {
+    .page-footer .container-fluid .row {
+        flex-direction: column;
+        align-items: left;
+        text-align: center;
+    }
+    .col-lg-2,
+    .col-lg-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-lg-2 img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .list-unstyled {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .col-lg-3.mob-align.mb-md-0.mb-3.mt-4 {
+        margin-bottom: -2rem! important;
+    }
+}
+
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+.sticky-chatbox {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    /* Adjust the right position as needed */
+    z-index: 1000;
+    /* Adjust the z-index as needed */
+}

@@ -1,0 +1,49 @@
+/* Chatbox.css */
+
+.chatbox {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 300px;
+    transition: width 0.3s ease;
+    /* Add smooth transition for opening/closing */
+    overflow: hidden;
+}
+
+
+/* Styles for the open state */
+
+.chatbox.open {
+    width: 300px;
+    /* Adjust the width as needed */
+}
+
+.tabs {
+    display: flex;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tab.active {
+    background-color: #ddd;
+}
+
+.tab-content {
+    padding: 15px;
+}
+
+
+/* Add more styles as needed */
